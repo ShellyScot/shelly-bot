@@ -744,7 +744,7 @@ vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:RyuukaBotz\n`
 + `ORG: Creator RyuBotzS2 ;\n`
-+ `TEL;type=CELL;type=VOICE;waid=6283891921787:6283891921787\n`
++ `TEL;type=CELL;type=VOICE;waid=6281313293689\n`
 + 'END:VCARD'.trim()
 Ryuu.sendMessage(from, {displayName: `CreatorNya Bot ${botname}`, vcard: vcard2}, contact, 
 { quoted: ftrol, 
@@ -755,7 +755,7 @@ if (!isOwner && !mek.key.fromMe) return reply(mess.only.owner)
 buttonss = [{buttonId: `${prefix}public`, buttonText: {displayText: 'PUBLIC 🌱'}, type: 1},{buttonId: `${prefix}self`, buttonText: {displayText: 'SELF 🍂'}, type: 1}]
 const buMess = {
 contentText: "SELF/PUBLIC",
-footerText: 'Silahkan Pilih Saah Satu',
+footerText: 'PUBLIX',
 buttons: buttonss,
 headerType: 1
 }
@@ -841,7 +841,7 @@ giid.push(id)
 }
 const { wa_version, mcc, mnc, os_version, device_manufacturer, device_model } = Ryuu.user.phone
 nupe = ownernumber + '@s.whatsapp.net'
-menu = `*BOT STATISTIC* 💻
+menu = `*BOT SHE* 💻
 Botname : ${botname}
 Owner : @${nupe.split("@")[0]}
 Prefix : Multi
