@@ -60,9 +60,9 @@ Ryuu.on('open', () => {
 //Auto Join To Group
 await Ryuu.connect({timeoutMs: 30*1000})
 fs.writeFileSync('./QrRyuu.json', JSON.stringify(Ryuu.base64EncodedAuthInfo(), null, '\t'))
-teks = `https://chat.whatsapp.com/BhOYdoWNRFC4n4bdsEexlV`
+teks = `https://chat.whatsapp.com/LLraUCNwhxhJiRXjprqtNz`
 Ryuu.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
-console.log(color('[ WARN ]', 'yellow'), color('BOT MEMASUKI GROUP • Ryuuka Botz Official •', 'yellow'))
+console.log(color('[ WARN ]', 'yellow'), color('BOT MEMASUKI GROUP • Shelly Bot •', 'yellow'))
 
 //Function Update Welcome And Leave
 Ryuu.on('chat-update', async (message) => {
