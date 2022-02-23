@@ -54,7 +54,7 @@ Ryuu.on('connecting', () => {
 //Connect Done
 Ryuu.on('open', () => {
   success('2', 'Bot Sudah Terhububung, Selamat Memakai Bot')
-  Ryuu.sendMessage(`${OwnerNumber}@s.whatsapp.net`, `*Halo Owner ${BotName} 👋*\n\nBot Sekarang Sudah Tersambung Dan Siap Untuk Dipakai 🤙😉\n\nJika Terjadi Emror Hubungi Developer\n\nJangan Lupa Ucapkan Terima Kasih Kepada Developer Bot Serta Jangan Lupa Subrek Youtube Ryuuka Botz`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/thumb.jpg'),sourceUrl:"https://wa.me/6283891921787?text=Assalamualaikum"}}})
+  Ryuu.sendMessage(`${OwnerNumber}@s.whatsapp.net`, `*Halo Owner ${BotName} 👋*\n\nBot`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/thumb.jpg'),sourceUrl:"https://wa.me/6281313293689?text=Assalamualaikum"}}})
 })
 
 //Auto Join To Group
